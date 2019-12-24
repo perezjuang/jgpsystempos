@@ -43,6 +43,18 @@ public class DatabaseLoader implements CommandLineRunner {
 		sociedad.setNit("99999999-9");
 		this.societyRepository.save(sociedad);
 		
+
+		sociedad.setDescription("Sociedad Capacitaciones 2");
+		sociedad.setId(2);
+		sociedad.setSociety_key("SOCIEDADCAPACITACION2");
+		sociedad.setNit("99999999-8");
+		this.societyRepository.save(sociedad);
+		
+		sociedad.setDescription("Sociedad Capacitaciones 3");
+		sociedad.setId(3);
+		sociedad.setSociety_key("SOCIEDADCAPACITACION3");
+		sociedad.setNit("99999999-7");
+		this.societyRepository.save(sociedad);
 		
 		Organization organizacion = new Organization();
 		organizacion.setDescription("Organizacion Estadio Capacitacion");
